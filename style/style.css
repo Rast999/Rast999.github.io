@@ -43,3 +43,37 @@
 .no-decoration:hover {
     color: inherit;
 }
+
+.article-footer {
+    font-size: 0.9rem;
+}
+
+.article-footer ul, p {
+    display: inline-block;
+}
+
+.article-footer ul {
+    float: right;
+}
+
+.author {
+    border-radius: 10%;
+    cursor: pointer;
+    text-decoration: none;
+}
+#bs-override .author:hover {
+    background-color: #dc3545 !important;
+    text-decoration: none;
+    transition: background-color .4s ease-out;
+
+}
+
+.article-footer ul li a:hover {
+    color: #dc3545 !important;
+    text-decoration: none;
+    transition: color .4s ease-out;
+}
+
+article:last-child hr {
+    display: none;
+}
