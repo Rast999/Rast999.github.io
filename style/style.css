@@ -1,0 +1,23 @@
+@media (max-width: 576px) {
+    #bs-override .bg-semitransparent ul li a {
+        background-color: rgba(255, 255, 255, 0.9);
+    }
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+#bs-override .bg-dark li a {
+    color: white;
+}
+
+#bs-override #nav-top.bg-semitransparent {
+    background-color: rgba(255, 255, 255, 0.7) !important;
+    transition: background-color 0.7s linear;
+}
+
+#bs-override #nav-top.bg-dark {
+    transition: background-color 0.7s linear;
+}

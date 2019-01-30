@@ -1,0 +1,16 @@
+
+#bs-override .top-text {
+    color: #000;
+}
+
+#bs-override .bg-semitransparent ul li a:hover {
+    background-color: #000;
+    color: #fff;
+    transition: .5s;
+}
+
+#bs-override .bg-dark ul li a:hover {
+    background-color: #fff;
+    color: #000;
+    transition: .5s;
+}
