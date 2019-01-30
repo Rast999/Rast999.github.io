@@ -10,8 +10,7 @@ function changeNavBackground(event) {
     var brandImg = $('img.logo').eq(0);
     var navBar = $('#nav-top').eq(0);
     var triggerHeight = headerImg.height() - navBar.attr('navHeight');
-    console.log(event.pageY);
-    if (event.originalEvent.pageY >= triggerHeight) {
+    if ($(window).scrollTop() >= triggerHeight) {
         if (!navBar.hasClass('bg-dark')) {
             navBar.removeClass('bg-semitransparent navbar-light');
             navBar.addClass('bg-dark navbar-dark');
