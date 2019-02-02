@@ -22,6 +22,24 @@
     transition: background-color 0.7s linear;
 }
 
+.card-img-scale {
+    overflow: hidden;
+}
+
+.card-img-scale img {
+    -webkit-transition: .9s all ease;
+    -moz-transition: .9s all ease;
+    -o-transition: .9s all ease;
+    -ms-transition: .9s all ease;
+    transition: .9s all ease;
+}
+
+.card-img-scale:hover img {
+    transform: scale(1.1);
+}
+
+
+/* 
 .image-article {
     height: 200px;
     overflow: hidden;
@@ -76,4 +94,4 @@
 
 article:last-child hr {
     display: none;
-}
+} */

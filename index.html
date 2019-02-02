@@ -35,8 +35,98 @@
     <div class="container py-md-3">
         <hr>
     </div>
+    <!-- Alternative content -->
+    <div class="container">
+        <!-- Message of the day -->
+        <div class="row pb-5">
+            <div class="card w-100">
+              <div class="card-body">
+                <blockquote class="blockquote text-center mb-0">
+                  <p>“Get busy living or get busy dying.”</p>
+                  <footer class="blockquote-footer">Stephen King<cite title="Source title"></cite></footer>
+                </blockquote>
+              </div>
+            </div>
+        </div>
 
-    <div class="container-fluid">
+        <!-- Recent posts block
+        What it should be:
+            A set of cards (4 on lg, 3 on md, 2 on sm and 1 on xs)
+            A card should have an image header, some title, a date and a button "read" -->
+        <div class="row">
+            <div class="col text-monospace text-uppercase">
+                <p class="h3">Recent posts</p>
+            </div>
+        </div>
+        <div class="row py-4">
+            <!-- single card -->
+            <div class="col-lg-3 col-sm-6 mb-5">
+                <div class="card text-center card-img-scale">
+                    <a href="#">
+                        <img class="img-fluid" src="https://ichef.bbci.co.uk/images/ic/720x405/p0517py6.jpghttps://ichef.bbci.co.uk/images/ic/720x405/p0517py6.jpg" alt="Header image" class="card-img-top">
+                    </a>
+                    <div class="card-body">
+                        <div class="card-title mb-3 h4">Card title</div>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quasi fuga nemo cupiditate! Ea accusamus consequatur.</p>
+                        <a href="#" class="btn btn-dark text-monospace text-uppercase">Read</a>
+                    </div>
+                    <div class="card-footer text-muted">
+                        01/02/19
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6 mb-5">
+                <div class="card text-center card-img-scale">
+                    <a href="#">
+                        <img class="img-fluid" src="https://ichef.bbci.co.uk/images/ic/720x405/p0517py6.jpghttps://ichef.bbci.co.uk/images/ic/720x405/p0517py6.jpg" alt="Header image" class="card-img-top">
+                    </a>
+                    <div class="card-body">
+                        <div class="card-title mb-3 h4">Card title</div>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quasi fuga nemo cupiditate! Ea accusamus consequatur.</p>
+                        <a href="#" class="btn btn-dark text-monospace text-uppercase">Read</a>
+                    </div>
+                    <div class="card-footer text-muted">
+                        01/02/19
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6 mb-5">
+                <div class="card text-center card-img-scale">
+                    <a href="#">
+                        <img class="img-fluid" src="https://ichef.bbci.co.uk/images/ic/720x405/p0517py6.jpghttps://ichef.bbci.co.uk/images/ic/720x405/p0517py6.jpg" alt="Header image" class="card-img-top">
+                    </a>
+                    <div class="card-body">
+                        <div class="card-title mb-3 h4">Card title</div>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quasi fuga nemo cupiditate! Ea accusamus consequatur.</p>
+                        <a href="#" class="btn btn-dark text-monospace text-uppercase">Read</a>
+                    </div>
+                    <div class="card-footer text-muted">
+                        01/02/19
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6 mb-5">
+                <div class="card text-center card-img-scale">
+                    <a href="#">
+                        <img class="img-fluid" src="https://ichef.bbci.co.uk/images/ic/720x405/p0517py6.jpghttps://ichef.bbci.co.uk/images/ic/720x405/p0517py6.jpg" alt="Header image" class="card-img-top">
+                    </a>
+                    <div class="card-body">
+                        <div class="card-title mb-3 h4">Card title</div>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quasi fuga nemo cupiditate! Ea accusamus consequatur.</p>
+                        <a href="#" class="btn btn-dark text-monospace text-uppercase">Read</a>
+                    </div>
+                    <div class="card-footer text-muted">
+                        01/02/19
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Content -->
+    <!-- <div class="container-fluid">
         <article class="py-4">
             <div class="container-fluid">
                 <a class="no-decoration" href="#"><h3 class="text-center text-uppercase">Sample header</h3></a>
@@ -52,7 +142,6 @@
                     Quia, nihil consequuntur quibusdam assumenda dolore quo qui dolores aliquid earum obcaecati placeat culpa magni aut eveniet in error ducimus sapiente distinctio beatae maiores ipsa perferendis temporibus sunt dolorum? Debitis!
                     Libero laborum dolore nemo quia voluptatem eius saepe, eveniet, excepturi dicta provident dolores soluta. Maiores molestias, temporibus iusto numquam tempora velit nostrum dolorum consequuntur provident possimus quisquam perferendis deserunt itaque!
                     </div>
-            <!-- below the article should be a pane with different info, author, comments, etc (with icons) -->   
             <div class="row article-footer justify-content-center mb-4">
                     <div class="col-md-10 col-lg-8">
                         <p class="text-monospace text-uppercase mt-1"><a href="#" class="bg-dark author text-light px-1 py-1">author: me</a></p>
@@ -82,8 +171,7 @@
                         Quia, nihil consequuntur quibusdam assumenda dolore quo qui dolores aliquid earum obcaecati placeat culpa magni aut eveniet in error ducimus sapiente distinctio beatae maiores ipsa perferendis temporibus sunt dolorum? Debitis!
                         Libero laborum dolore nemo quia voluptatem eius saepe, eveniet, excepturi dicta provident dolores soluta. Maiores molestias, temporibus iusto numquam tempora velit nostrum dolorum consequuntur provident possimus quisquam perferendis deserunt itaque!
                         </div>
-                <!-- below the article should be a pane with different info, author, comments, etc (with icons) -->   
-                <div class="row article-footer justify-content-center mb-4">
+                 <div class="row article-footer justify-content-center mb-4">
                         <div class="col-md-10 col-lg-8">
                             <p class="text-monospace text-uppercase mt-1"><a href="#" class="bg-dark author text-light px-1 py-1">author: me</a></p>
                             <ul class="list-inline text-monospace text-uppercase">
@@ -97,7 +185,7 @@
                         <hr>
                 </div>
             </article>
-    </div>
+    </div> -->
 
     <!-- Pre-Footer horizontal-line -->
     <div class="container py-md-3">
